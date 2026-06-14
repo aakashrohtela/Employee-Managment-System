@@ -3,7 +3,7 @@ import React from 'react'
 
 const App = () => {
   return (
-    <div>Task Manager Managment</div>
+    <div className='text-red-500 text-3xl underline'>Task Manager Managment</div>
   )
 }
 
