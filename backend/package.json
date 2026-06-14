@@ -3,14 +3,17 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  
+  
   "scripts": {
-    "start": "node inedx.js"
+"start":"node inedx.js",
+"dev":"nodemon index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  
   "dependencies": {
-    "express": "^5.2.1",
-    "om": "^0.0.33-beta"
+    "express": "^5.2.1"
   }
 }
