@@ -2,6 +2,8 @@ import express from "express";
 import cors from "cors";
 import dotenv from "dotenv";
 import mongoose from "mongoose";
+import authRoutes from "./routes/auth.route.js"
+
 
 dotenv.config();
 
@@ -27,6 +29,8 @@ app.listen(3000, () => {
   console.log("🚀 Server running on port 3000");
 });
 
+
+app.use("/api/auth",authRoutes)
 
 // import express from "express";
 // import cors from "cors";
